@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Buttons */
+
+.btn {
+    cursor: pointer;
+}
+
+/*************/
+/* Home Page */
+/*************/
+
+#note_list {
+    height: auto;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#note_list_header {
+    font-size: 22px;
+    border : 2px solid black;
+    background : rgb(129, 235, 228);
+}
+
+.saved_note {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.saved_note:hover {
+    background: rgb(134, 206, 251);
+}
+
+/* #content {
+    width: 100%;
+    height: 200px;
+} */
